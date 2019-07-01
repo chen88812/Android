@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义ScrollView，为里面的组件添加垂直滚动条 -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+<!-- 定义HorizontalScrollView，为里面的组件添加水平滚动条 -->	
+<LinearLayout android:orientation="vertical"
+    android:background="@drawable/df"
+	android:layout_width="match_parent"
+	android:layout_height="fill_parent">	
+	<!--android:shadowRadius 阴影的半径 -->
+	 <TextView     
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:shadowColor="#ffffff"
+        android:shadowDx="10.0"
+        android:shadowDy="8.0"
+        android:shadowRadius="3.0"
+        android:text="概况"
+        android:textColor="#ff5588"
+        android:textSize="40dp" />
+<TextView android:layout_width="wrap_content"
+    
+	android:layout_height="wrap_content" 
+	 android:text="   石家庄，简称“石”，旧称石门，是河北省省会，地处河北省西南部。截至2016年底，石家庄辖区总面积15848平方公里，其中市区面积2206平方公里，全市常住人口1078.46万人，辖8区13县（市），
+	 即长安区、桥西区、新华区、裕华区、井陉矿区、藁城区、鹿泉区、栾城区、井陉县、正定县、行唐县、灵寿县、高邑县、深泽县、赞皇县、无极县、平山县、元氏县、赵县、晋州市、新乐市。 [1-2] "/>
+	  <ImageView
+         android:layout_width="300px"
+         android:layout_height="300px" 
+        
+         android:src="@drawable/a"/>	
+<TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" 
+         android:textSize="18px"
+         android:text="   石家庄地处河北省中南部，环渤海湾经济区。东与衡水接壤，南与邢台毗连，西与山西为邻，北与保定交界，距首都北京273公里。京石、石太、石黄、石安高速公路和107、207、307、308国道以及2条省道、42条县道在石家庄市域纵横交错。" />
+         <ImageView
+         android:layout_width="300px"
+         android:layout_gravity="center"
+         android:layout_height="300px" 
+         android:src="@drawable/k"/>
+ <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" 
+         android:textSize="18px"
+         android:text="   石家庄是中国铁路运输的主要枢纽之一，京广、石太、石德、朔黄四条铁路干线交汇于此。
+是全国粮、菜、肉、蛋、果主产区之一，农业集约化和产业化水平较高，生产规模位居全国36个重点城市第一位，被国家确定为优质小麦生产基地，素有“北方粮仓”之称。 [5] 
+ 2016年2月23日，石家庄在CCTV“中国经济生活大调查”2015年度十大最具幸福感省会城市中名列第八。 [7]  2017年10月24日石家庄市第十四届人大常委会第六次会议通过，决定自2017年起，将每年11月12日设立为石家庄解放纪念日。2017年石家庄入选全国文明城市。" />
+         <ImageView
+         android:layout_width="300px"
+         android:layout_height="300px" 
+         android:src="@drawable/z"/> 
+</LinearLayout>
+
+</ScrollView>
